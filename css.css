@@ -1,0 +1,116 @@
+/*Name : Lakshay Rajput
+  Student ID : 0826016
+  Date : 1-02-2023
+*/
+
+/*** 
+Color Guide
+rgba(187, 222, 227, 0.8);
+rgba(244, 5, 25, 0.697);
+rgba(142, 106, 231, 0.737);
+aquamarine
+
+***/
+
+/* 
+1.Main Page Styles
+2.header Styles
+3.body styles
+4.Nav styles
+5.footer styles 
+*/
+
+
+/*
+ 1.) Main Page Styles
+*/
+
+body {
+    background-color:  rgba(187, 222, 227, 0.8);
+    border: 0.17em;
+}
+
+
+/*
+ 2.)header Styles
+*/
+
+h1 {
+    font-size: 30pt;
+    color : rgba(244, 5, 25, 0.697);
+    font-style: italic;
+    border: 6px thick rgba(255, 25, 0, 0.827);
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    background-color:  rgb(142, 106, 231);;
+}
+
+
+/*
+ 3.)body style
+*/
+
+img{
+    float: right;
+    padding-left: 10px;
+
+  }
+  
+
+p{
+    font-size: 20pt;
+    text-align: justify;
+    padding: 10px 10px;
+}
+h2, h3{
+    font-size: 24pt;
+    background-color : rgba(142, 106, 231, 0.737);
+    color: rgba(2, 0, 8, 0.927);
+    font-variant: large caps;
+}
+
+ h3 + p {
+    
+    font-style: rgba(24, 221, 83, 0.423);
+   
+} 
+h1::first-letter {
+   
+    font-size: 300px;
+}
+
+h1::first-letter {
+    
+    font-size: 300%;
+}
+p::first-line {
+   
+    font-variant:large-caps;
+}
+
+
+ /*
+ 4.)Nav Styles
+  */
+
+ a:hover {
+    font-size: 20pt;
+   color: rgba(38, 47, 44, 0.204) ;
+}
+ a:active {
+    font-size: 20pt;
+    color:rgba(229, 164, 164, 0.942);
+}
+
+
+/*
+5.)footer style
+*/
+main>footer {
+    text-align: center;
+    border: 100px;
+    font-weight: normal;
+    font-variant: normal; 
+}
+
